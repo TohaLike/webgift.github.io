@@ -1,0 +1,106 @@
+body {
+    font-family: 'Kadwa', serif;
+    background: linear-gradient(256.79deg, 
+    #B66EFD -6.22%, 
+    #8535AA 26.88%, 
+    #5C49D0 52.81%, 
+    #5C27B1 74.32%, 
+    #38205F 99.69%);
+}
+
+/* Scroll Section */
+body::-webkit-scrollbar {
+    width: 8px;
+    background: linear-gradient(256.79deg, 
+    #B66EFD -6.22%, 
+    #8535AA 26.88%, 
+    #5C49D0 52.81%);
+}
+   
+body::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #191919;
+}
+
+/* Container */
+.container {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/* Header */
+.header {
+    height: 130px;
+}
+
+.main__title {
+    font-size: 60px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.line__one {
+    margin-top: -45px;
+    margin-bottom: 0px;
+    border: 1px solid #000000;
+}
+
+
+/* Article */
+.article {
+    height: 798px;
+    background-color: #161616;
+    position: relative;
+    filter: drop-shadow(0px 10px 11px rgba(0, 0, 0, 0.25));
+}
+
+.img__container {
+    position: absolute;
+    left: 1011px;
+    height: 798px;
+    width: 880px;
+    background-color: #000000;
+}
+
+.anna__svg {    
+    position: absolute;
+    top: -38px;
+}
+
+.contect__container {
+    position: absolute;
+    top: 177px;
+    z-index: 100;
+
+}
+
+.title__article {    
+    width: 1100px;
+    color: #ffffff;
+    font-size: 51px;
+}
+
+.main__btn {    
+    font-family: 'Kadwa', serif;
+    position: relative;
+    top: 100px;
+    width: 420px;
+    height: 78px;
+    font-size: 30px;
+    background-color: #CCCCCC;
+    color: #000000;
+    transition: 0.2s ease;
+    border-radius: 60px;
+}
+
+.main__btn:hover {
+    background-color: #ECECEC;
+}
+
+
+/* Footer */
+.footer {
+    height: 130px;
+}
+
+/* Hello */
